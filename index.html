@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <style>
+      body{
+        background-color: #1a1a1a;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+         align-items: center; 
+      }
+      .card{
+        background-color: #d3cece;
+        border-radius: 8px;
+        padding: 30px;
+        width: 300px;
+      }
+      form{
+        display: flex;
+        flex-direction: column;
+      }
+      input{
+        margin-bottom: 10px;
+        padding: 6px;
+        background-color: rgba(249, 247, 244, 0.952);
+        border-radius: 5px;
+        border: 1px solid black;
+      }
+      input:focus{
+        /* outline: 1px solid green; */
+        outline: none;
+        box-shadow: 0 0 2px green;
+      }
+      button{
+        background-color: #13bd5a;
+        padding: 8px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover{
+        background-color: #21ee13;
+       
+      }
+      h2{
+        color: #13bd5a;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="card">
+      <h2>Signup</h2>
+      <form>
+        <input type="text" placeholder="First Name">
+        <input type="email" placeholder="Last Name">
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password"> 
+      <button type="submit">SignUp</button> 
+    </form>
+    </div>
+  </body>
+
+</html>
